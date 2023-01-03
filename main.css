@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Upright:wght@300;400;500&family=Montserrat:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+font-family: 'Cinzel', serif;
+família da fonte: 'Cormorant Upright', serif;
+família da fonte: 'Montserrat', sans serif;
+*/
+
+body {
+  font-family: "Cinzel", serif;
+  width: 100vw;
+}
+
+/* HEADER */
+
+h1 {
+  font-size: 3.2rem;
+  text-align: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  color: #edebe7;
+  text-decoration: none;
+  padding: 25px 20px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.nav-right,
+.nav-left {
+  justify-content: space-between;
+  margin: auto 150px;
+  padding: 15px;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  color: #edebe7;
+  height: 50vh;
+  background: no-repeat center/cover url("images/header.png");
+  position: relative;
+  width: 100vw;
+}
+
+header::before {
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  content: "";
+  background-color: rgba(186, 169, 138, 0.8);
+}
+
+.header-content {
+  max-width: 400px;
+  margin: 120px auto;
+  text-align: center;
+  position: relative;
+}
+
+.navbar-desktop-top-line {
+  position: absolute;
+  left: 0%;
+  top: 12px;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 1px;
+  background-color: #fcfaf7;
+}
+
+.header-content p {
+  position: relative;
+  font-size: 3vh;
+}
+
+.navbar-desktop-top-line {
+  position: absolute;
+  left: 0%;
+  top: 12px;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 1px;
+  background-color: #fcfaf7;
+}
+
+/* MAIN */
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .container {
+  align-items: center;
+  text-align: justify;
+}
+
+section {
+  padding: 24px 0;
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.container img {
+  margin-right: 50px;
+  height: 80vh;
+}
+
+.conteudo {
+  background-color: #fcfaf7;
+  width: 60%;
+  padding: 60px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.conteudo h3 {
+  font-family: "Cormorant Upright", serif;
+  color: #555353;
+  font-size: 1.8rem;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+}
+
+.conteudo p {
+  font-family: "Cormorant Upright", serif;
+  color: #555353;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  padding-top: 50px;
+}
+
+/* Formulario  */
+
+#contact .container {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .container h3 {
+  font-family: "Cormorant Upright", serif;
+  margin: 20px 0 40px 0;
+  text-align: center;
+  color: #555353;
+  font-size: 2rem;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: 0.075em;
+}
+
+.contact-full {
+  border: 1px solid #8f9386;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.textarea,
+.contact-email {
+  border-bottom: 1px solid #8f9386;
+  border-top: 1px solid #8f9386;
+}
+
+textarea,
+.contact-full input {
+  border: none;
+  outline: none;
+  margin: 0;
+  font-family: "Cormorant Upright", serif;
+  color: #1c1c1c;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+}
+
+.contact-full .textarea,
+.contact-full .contact-email,
+.contact-full .contact-name,
+.contact-full .contact-tel {
+  padding: 5px;
+  padding-right: 200px;
+  font-family: "Cormorant Upright", serif;
+  color: #555353;
+  font-size: 1.15em;
+  line-height: 1.5em;
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 420px;
+  margin-bottom: 8px;
+}
+form button {
+  padding: 5px;
+  margin-left: 100px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Cormorant Upright", serif;
+  color: #555353;
+  background-color: #fff;
+  font-size: 1.3em;
+  border: 0.5px #555353 solid;
+  cursor: pointer;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+form button:hover {
+  text-decoration: underline 0.5px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgba(186, 169, 138, 0.8);
+  color: #ecf0f1;
+  padding: 16px 0;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+footer p {
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.footer img {
+  height: 150px;
+  padding: 0;
+}
+
+.footer .line {
+  background-color: #fff;
+  bottom: -16px;
+  left: 0;
+  position: absolute;
+  top: -16px;
+  width: 1px;
+}
+
+#legal {
+  font-size: 10px;
+}
+
+#social-media {
+  width: 40px;
+  height: 50px;
+}

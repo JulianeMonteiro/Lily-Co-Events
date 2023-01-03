@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond&family=Work+Sans:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*
+font-family: 'Cinzel', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Work Sans', sans-serif; 
+*/
+
+body {
+  font-family: "Cinzel", serif;
+  width: 100vw;
+}
+
+/* Header */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  color: #edebe7;
+  text-decoration: none;
+  padding: 25px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.nav-right,
+.nav-left {
+  justify-content: space-between;
+  margin: auto 150px;
+  padding: 15px;
+  position: relative;
+}
+
+.header img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  color: #edebe7;
+  height: 50vh;
+  background: no-repeat center/cover url("images/header.png");
+  position: relative;
+  width: 100vw;
+}
+
+header::before {
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  content: "";
+  background-color: rgba(186, 169, 138, 0.8);
+}
+
+.header-content {
+  max-width: 400px;
+  margin: 120px auto;
+  text-align: center;
+  position: relative;
+}
+.header-content p {
+  position: relative;
+  font-size: 3vh;
+}
+
+.navbar-desktop-top-line {
+  position: absolute;
+  left: 0%;
+  top: 12px;
+  right: auto;
+  bottom: auto;
+  width: 100%;
+  height: 1px;
+  background-color: #fcfaf7;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
