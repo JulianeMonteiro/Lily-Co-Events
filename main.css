@@ -5,11 +5,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*
-font-family: 'Cinzel', serif;
-família da fonte: 'Cormorant Upright', serif;
-família da fonte: 'Montserrat', sans serif;
-*/
+
+html {
+  overflow-x: hidden;
+}
 
 body {
   font-family: "Cinzel", serif;
